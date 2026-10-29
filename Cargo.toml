@@ -1,0 +1,13 @@
+[package]
+name = "whatsapp-rust-bot"
+version = "0.2.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+dotenvy = "0.15"
+env_logger = "0.11"
+log = "0.4"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal", "fs", "sync", "time"] }
+whatsapp-rust = { git = "https://github.com/oxidezap/whatsapp-rust", rev = "5229afc13228379998593c54793199b0a74042ff" }
+yt-dlp = { git = "https://github.com/boul2gom/yt-dlp", rev = "8496c26e1ba27fae8484d143902a49d98b9914e8" }

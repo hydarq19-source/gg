@@ -1,0 +1,5 @@
+.env
+/target/
+/downloads/
+/libraries/
+whatsapp_bot.db*
